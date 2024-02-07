@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="side-nav">
+            <div class="logo-container">
+                <img class="logo-img" src="img/logo.jpg" alt="logo">
+            </div>
+            <div class="nav-items">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-user-group"></i>
+                    <i class="fa-solid fa-burger"></i>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <i class="fa-solid fa-paste"></i>
+                    
+                </div>
+                <div><i class="fa-solid fa-gear"></i></div>
+            </div>
+        </div>
+        <div class="content">
+            <nav class="flex justify-between items-center top-nav wrap mobile-width">
+                <div class="none">
+                    <button class="ham-btn">
+                        <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+                    </button>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+                <div class="flex gap-2">
+                    <a style="padding-top: 6px;">
+                       <div class="notification-container flex items-center">
+                        <div class="counter flex items-center justify-center"><p>12</p></div>
+                        <i class="fa-regular fa-bell"></i>
+                       </div>
+                
+                    </a>
+                    <a class="username" style="padding-top: 6px;">Jerry Victor</a>
+                    
+                    <a>
+                        <div class="flex justify-center items-center gap-2">
+                            <img width="30px" style="border-radius: 50%;" src="img/profileimg.jpg" alt="">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <section class="section-content">
+                <div class="flex justify-between wrap mobile-magin">
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-gauge" style="font-size: 19px;"></i>
+                        <h1 style="font-size: 1.6em;">Dashboard</h1>
+                    </div>
+                    <div class="flex items-center gap-4 mobile-gap">
+                        <div class="flex items-center gap-1">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <p class="small-text bold">last 30 days</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="flex items-center justify-center gap-1">
+                            <i class="fa-solid fa-signal" style="font-size: 18px;"></i>
+                            <p class="small-text">123</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid gap-2 magin-bottom">
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small blue">
+                        <p class="Custormers-active">+349</p>
+                        <i class="fa-solid fa-user-group icon-style"></i>
+                        <p class="less-bold">4,783</p>
+                        <p class="smaller-text">Custormers</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small purple">
+                        <p class="dashboard-active">44.93%</p>
+                        <i class="fa-solid fa-book icon-style"></i>
+                        <p class="less-bold">873<span style="font-weight: lighter; color: #868b8e;"> of 1,943</span></p>
+                        <p class="smaller-text">Delivery</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small blue">
+                        <p class="dashboard-active">30,18%</p>
+                        <i class="fa-solid fa-laptop icon-style"></i>
+                        <p class="less-bold">31,983,221</p>
+                        <p class="smaller-text">Actual ARR Aggregate</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small brown">
+                        <p class="dashboard-active">69,82%</p>
+                        <i class="fa-solid fa-copy icon-style"></i>
+                        <p class="less-bold">74,002,743</p>
+                        <p class="smaller-text">ARR Potential</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small purple3">
+                        <i class="fa-regular fa-image icon-style"></i>
+                        <p class="less-bold">105,985,964</p>
+                        <p class="smaller-text">Aggregate ARR Potential</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small blue2">
+                        <i class="fa-solid fa-money-bill-trend-up icon-style"></i>
+                        <p class="less-bold">113,819</p>
+                        <p class="smaller-text">Average ARR</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small brown2">
+                        <p class="dashboard-active">ARR 21 292 080,00</p>
+                        <i class="fa-regular fa-note-sticky icon-style"></i>
+                        <p class="less-bold">Module Y</p>
+                        <p class="smaller-text">Largest Potential</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small purple3">
+                        <p class="dashboard-active">ARR 1 184 000,00</p>
+                        <i class="fa-solid fa-file-circle-plus icon-style"></i>
+                        <p class="less-bold">Custormer X</p>
+                        <p class="smaller-text">Largest Potential</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small brown2">
+                        <i class="fa-regular fa-clock icon-style"></i>
+                        <p class="less-bold">18 m</p>
+                        <p class="smaller-text">Average Contract Length</p>
+                    </div>
+                    <div class="dashboard-summary-item flex flex-col items-center gap-small gray">
+                        <i class="fa-solid fa-circle-plus icon-style"></i>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center magin-bottom mobile-magin wrap">
+                    <div class="flex items-center gap-2 mobile-magin">
+                        <div class="flex items-center gap-small">
+                            <i class="fa-regular fa-file-lines icon-font"></i>
+                            <p class="">Sales</p>
+                        </div>
+                        
+                        <div class="flex items-center gap-small" style="color: #959593;">
+                            <i class="fa-brands fa-chrome icon-font"></i>
+                            <p>Churn</p>
+                        </div>                         
+                    </div>
+                    <div class="mobile-magin"><p>Moonstone</p></div>
+                    <div class="flex justify-between items-center gap-2">
+                        <div class="flex items-center gap-small">
+                            <img src="img/logo.jpg" alt="logo" srcset="" width="16px" height="16px">
+                            <p class="small-textp">Intelligence</p>
+                        </div>
+                        <div class="flex items-center gap-small">
+                            <i class="fa-solid fa-signal icon-font"></i>
+                            <p class="small-textp">Statistics</p>
+                        </div>
+                        <div class="flex items-center gap-small">
+                            <i class="fa-solid fa-bullseye icon-font"></i>
+                            <p class="small-textp">Key action</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flex justify-between wrap">
+                    <div class="grid-2">
+                        <div class="flex flex-col items-center gap-1">
+                            <div class="flex gap-2">
+                                <i class="fa-solid fa-arrow-trend-up" style="color: #76cc7c; font-size: 30px;"></i>
+                                <p>25%</p>
+                            </div>
+                            <p class="smaller-text">Upsale</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                            <div class="flex gap-2">
+                                <i class="fa-solid fa-arrow-trend-down" style="color: #f9552e; font-size: 30px;"></i>
+                                <p>-7</p>
+                            </div>
+                            <p class="smaller-text">Upsale</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <div class="flex gap-2">
+                                <i class="fa-solid fa-arrow-trend-up" style="color: #76cc7c; font-size: 30px;"></i>
+                                <p>+161,000</p>
+                            </div>
+                            <p class="smaller-text">Upsale ARR</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <div class="flex gap-2">
+                                <i class="fa-solid fa-arrow-right-long" style="color: #656661; font-size: 30px;"></i>
+                                <p>0</p>
+                            </div>
+                            <p class="smaller-text">New Custormers</p>
+                        </div>
+                    </div>
+                    <div class="table-div">
+                        <table>
+                            <tr class="smaller-text">
+                            <th>Product</th>
+                            <th>Startup fee</th>
+                            <th>ARRNot applicable</th>
+                            <th>From kr 12,500date</th>
+                            <th>01 feb 2023</th>
+                            </tr>
+                            <tr class="tr-small-textp tr-active table-buttom">
+                            <td class="radius-left mobile-padding-left">Module X</td>
+                            <td>Not applicable</td>
+                            <td>kr 12,500</td>
+                            <td>01 feb 2023</td>
+                            <td class="radius-right"><p class="on-active">On</p></td>
+                            </tr>
+                            <tr class="tr-small-textp tr-active table-buttom">
+                            <td class="radius-left mobile-padding-left">Module Y</td>
+                            <td>Not applicable</td>
+                            <td>kr 12,500</td>
+                            <td>01 feb 2023</td>
+                            <td class="radius-right mobile-padding-left"><p class="on-active">On</p></td>
+                            </tr>
+                            <tr class="tr-small-textp tr-inactive table-buttom">
+                            <td class="radius-left mobile-padding-left">Module Y</td>
+                            <td>kr 9,900</td>
+                            <td>kr 35,000</td>
+                            <td>01 feb 2023</td>
+                            <td class="radius-right"><p class="on-inactive">Off</p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+    </main>
+    <script src="js/scrit.js"></script>
+</body>
+</html>
