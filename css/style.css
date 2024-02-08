@@ -343,14 +343,13 @@ th, td {
         margin-top: 70px;
         width: 0%;
         left: -100%;
-        transition: all 1s;
+        transition: all 0.4s;
     }
 
     .active{
         width: 15%;
         position: fixed;
         left: 0;
-        transition: all 1s;
     }
 
 
